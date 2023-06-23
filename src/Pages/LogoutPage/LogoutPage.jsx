@@ -10,7 +10,7 @@ export default function LogoutPage({ closeModalLogoutPage }) {
           <p className="pb-8">آیا میخواهید از حساب کاربری خود خارج شوید؟</p>
           <div className="flex flex-col items-center justify-center sm:flex sm:flex-row ">
             <Link to={"/login"}>
-              <button
+              <button       
                 onClick={() => {
                   setValidation(false);
                 }}
